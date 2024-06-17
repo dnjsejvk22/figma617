@@ -23,6 +23,12 @@ a{
     text-decoration: none;
 }
 
+li{list-style: none;}
+body,ul,p,div{
+    margin: 0;
+    padding: 0;
+}
+
 /* 공통 클래스 */
 .title{
     color: #111;
@@ -47,4 +53,39 @@ font-weight: 600;
 
 .activecolorbg{
     background-color: var(--basecolor);
+}
+
+.container{
+    display: flex;  /* 내 자식의 레이아웃*/
+    margin: 0 auto;
+    align-items: center;
+    gap: 3.125rem;
+    flex-shrink: 0;
+}
+
+.seach{
+    width: 26.25rem;
+    height: 4.23106rem;
+}
+
+.seach input{
+    display: block;
+    border-radius: 4.36188rem;
+    border: 2.094px solid var(--pointcolor, #FF3D43);
+    background: #FFF;
+}
+
+.ullist{
+    width: 50.1875rem;
+    height: 3.5625rem;
+    }
+
+.ullist ul{
+    display: flex;
+    width: 50.1875rem;
+    height: 3.5625rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.69831rem;
+    flex-shrink: 0;
 }
