@@ -22,3 +22,29 @@ a{
     color: var(--basecolor);
     text-decoration: none;
 }
+
+/* 공통 클래스 */
+.title{
+    color: #111;
+font-size: 2.25rem;
+}
+
+.linkfont{
+    color: #333;
+
+/* link */
+font-weight: 600;
+
+}
+
+.activecolor{
+    color: var(--activecolor);
+}
+
+.pointcolor{
+    color: var(--pointcolor);
+}
+
+.activecolorbg{
+    background-color: var(--basecolor);
+}
