@@ -86,8 +86,8 @@ font-weight: 600;
     display: flex;
     width: 50.1875rem;
     height: 3.5625rem;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-end; /*x축*/
+    align-items: center;     /*y축*/
     gap: 1.69831rem;
     flex-shrink: 0;
 }
@@ -107,17 +107,39 @@ font-weight: 600;
 } */
 
 .cs svg:hover path{
-    fill: red;
+    fill: #FF3D43;
 }
 
 .mb svg:hover path{
-    fill: red;
+    fill: #FF3D43;
 }
 
 .ht svg:hover path{
-    fill: red;
+    fill: #FF3D43;
+}
+
+/* .ct svg path{
+    fill: #02AE74;
+    transition: 0.5s;
 }
 
 .ct svg:hover path{
-    fill: red;
+    fill: #FF3D43;
+} */
+
+.ct {
+    background-color: #FF3D43;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ct:hover {
+    background-color: #02AE74;
+    transition: 0.5s;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ct path{
+    fill: #FFF;
 }
