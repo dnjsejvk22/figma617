@@ -70,6 +70,8 @@ font-weight: 600;
 
 .seach input{
     display: block;
+    width: 100%;
+    height: 100%;
     border-radius: 4.36188rem;
     border: 2.094px solid var(--pointcolor, #FF3D43);
     background: #FFF;
@@ -88,4 +90,34 @@ font-weight: 600;
     align-items: center;
     gap: 1.69831rem;
     flex-shrink: 0;
+}
+/* 클래스가 ullist안의 li태그중에서
+클래스 m인거 찾아
+찾았으면 그 안의 두번째 이미지 태그 나타나지마 */
+/* .ullist li img:nth-chlid(2){
+    display:none
+}
+
+.ullist li.m:hover img:nth-chlid(2){
+    display:block
+}
+
+.ullist li.m:hover img:nth-chlid(1){
+    display:none
+} */
+
+.cs svg:hover path{
+    fill: red;
+}
+
+.mb svg:hover path{
+    fill: red;
+}
+
+.ht svg:hover path{
+    fill: red;
+}
+
+.ct svg:hover path{
+    fill: red;
 }
